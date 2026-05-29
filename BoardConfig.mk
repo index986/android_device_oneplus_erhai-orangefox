@@ -8,7 +8,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
 
-DEVICE_PATH := device/oneplus/dodge
+DEVICE_PATH := device/oneplus/erhai
 
 
 # For building with minimal manifest

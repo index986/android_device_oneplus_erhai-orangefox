@@ -8,12 +8,12 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
 
-LOCAL_PATH := device/oneplus/dodge
+LOCAL_PATH := device/oneplus/erhai
 
 # Shipping API level
-BOARD_SHIPPING_API_LEVEL := 34
-PRODUCT_SHIPPING_API_LEVEL := 34
-PRODUCT_TARGET_VNDK_VERSION := 34
+BOARD_SHIPPING_API_LEVEL := 35
+PRODUCT_SHIPPING_API_LEVEL := 35
+PRODUCT_TARGET_VNDK_VERSION := 35
 
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -32,5 +32,5 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # some OrangeFox-specific settings
-$(call inherit-product, $(LOCAL_PATH)/fox_dodge.mk)
+$(call inherit-product, $(LOCAL_PATH)/fox_erhai.mk)
 #

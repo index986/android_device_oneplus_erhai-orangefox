@@ -30,10 +30,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dodge device
 $(call inherit-product, device/oneplus/dodge/device.mk)
 
-PRODUCT_DEVICE := dodge
-PRODUCT_NAME := twrp_dodge
+PRODUCT_DEVICE := erhai
+PRODUCT_NAME := twrp_erhai
 PRODUCT_BRAND := oneplus
-PRODUCT_MODEL := OnePlus 13
+PRODUCT_MODEL := OnePlus Pad 3
 PRODUCT_MANUFACTURER := oneplus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oplus

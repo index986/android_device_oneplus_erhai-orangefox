@@ -1,17 +1,16 @@
-# OnePlus 13 dodge Android device tree
+# OnePlus Pad 3 erhai Android device tree
 
 ## Working
 
 - [X] Display
 - [X] Touch (Even in FastbootD)
-- [X] Decryption
-- [X] Flashing
-- [X] Backup & Restore
-- [X] MTP/OTG Storage
+- [ ] Decryption
+- [ ] Flashing
+- [ ] Backup & Restore
+- [ ] MTP/OTG Storage
 - [X] ADB/FastbootD
-- [X] Factory Reset
-- [X] Vibrator
-- [X] Display & Vibration Settings
+- [?] Factory Reset
+- [N] Vibrator ( Not Applicable as OnePlus Pad 3 does not have one )
 
 ## Not working
 - [ ] ????????
@@ -31,12 +30,12 @@ cd sync
 cd ~/android/fox_14.1/device
 mkdir -p oneplus
 cd oneplus
-git clone https://github.com/koaaN/android_device_oneplus_dodge-orangefox.git dodge
+git clone https://github.com/index986/android_device_oneplus_erhai-orangefox.git erhai
 ```
 ### BUILD!
 ```
 cd ~/android/fox_14.1
 source build/envsetup.sh
-lunch twrp_dodge-ap2a-eng
+lunch twrp_erhai-ap2a-eng
 mka adbd recoveryimage
 ```
