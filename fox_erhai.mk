@@ -20,7 +20,7 @@
 
 
  OF_MAINTAINER := Jonas Salo & Daniel Springer
- OF_SCREEN_H := 3392
+ OF_SCREEN_H := 2400
  OF_STATUS_H := 120
  OF_HIDE_NOTCH := 1
  OF_STATUS_INDENT_LEFT := 50
